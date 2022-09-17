@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 
 function App() {
-  const [categories] = useState([
+  const [projects] = useState([
     { 
       name: "Portfolio"
     },
@@ -14,18 +14,18 @@ function App() {
     },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentProject, setCurrentProject] = useState(projects[0]);
 
   return (
     <div>
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
+        projects={projects}
+        setCurrentProject={setCurrentProject}
+        currentProject={currentProject}
       ></Nav>
       <main>
         <div>
-          <Portfolio></Portfolio>
+          <Portfolio currentProject={currentProject}></Portfolio>
           <About></About>
         </div>
       </main>

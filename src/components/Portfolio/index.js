@@ -1,25 +1,19 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import photo from '../../assets/small/projects/0.jpg';
+import PhotoList from '../PhotoList';
 
-function Portfolio(props){
 
-    const currentProject = {
-        name: "projects",
-    };
-    
+function Portfolio(props) {
+
+    const { currentProject} = props;
     return (
         <section>
             <h1>{capitalizeFirstLetter(currentProject.name)}</h1>
-            <div className="flex-row">
-                <img
-                    src={photo}
-                    alt="Project Example"
-                    className="img-thumbnail mx-1"
-                />
-            </div>
+            <p>{currentProject.description}</p>
+            <PhotoList project ={currentProject.name}/>
         </section>
-    )
-};
 
-export default Portfolio;
+    );
+  }
+  
+  export default Portfolio;
