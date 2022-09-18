@@ -9,8 +9,7 @@ function Category(props) {
     return (
         <section>
             <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
-            <p>{currentCategory.description}</p>
-            <PhotoList project ={currentCategory.name}/>
+            <PhotoList category ={currentCategory.name}/>
         </section>
 
     );

@@ -6,12 +6,34 @@ const PhotoList = ({ category }) => {
     {
       name: 'Catastrophic',
       category: 'portfolio',
-      description: 'all about cats'
     },
     {
-      name: 'Catastrophic',
+      name: 'Placeholder',
       category: 'portfolio',
-      description: 'all about cats'
+    },
+    {
+    name: 'Placeholder',
+    category: 'portfolio',
+    },
+    {
+    name: 'Quizinator',
+    category: 'portfolio',
+    },
+    {
+    name: 'Rent-a-Ride',
+    category: 'portfolio',
+    },
+    {
+    name: 'Weather Dashboard',
+    category: 'portfolio',
+    },
+    {
+      name: 'Placeholder',
+      category: 'portfolio',
+    },
+    {
+      name: 'Profile picture',
+      category: 'about',
     },
   ]);
 
