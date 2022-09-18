@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About';
-import Nav from './components/Nav';
-import Portfolio from './components/Portfolio';
+import Navigation from './components/Navigation';
+import Category from './components/Category';
 
 function App() {
-  const [projects] = useState([
+  const [categories] = useState([
+    {
+      name: "About"
+    },
+    {
+      name: "Contact"
+    },
     { 
       name: "Portfolio"
     },
@@ -14,19 +19,20 @@ function App() {
     },
   ]);
 
-  const [currentProject, setCurrentProject] = useState(projects[0]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
     <div>
-      <Nav
-        projects={projects}
-        setCurrentProject={setCurrentProject}
-        currentProject={currentProject}
-      ></Nav>
+      <section>
+          <Navigation
+            categories={categories}
+            setCurrentCategory={setCurrentCategory}
+            currentCategory={currentCategory}
+          ></Navigation>
+      </section>
       <main>
         <div>
-          <Portfolio currentProject={currentProject}></Portfolio>
-          <About></About>
+          <Category currentCategory={currentCategory}></Category>
         </div>
       </main>
     </div>
