@@ -1,17 +1,17 @@
-// import React from 'react';
-// import Nav from '../Navigation';
+import React from 'react';
+import Navigation from '../Navigation';
 
-// function Header(){
-//     return(
-//         <section>
-//             <div>
-//                 <h1>Betsy Griffith</h1>
-//             </div>
-//             <div>
-//                 <Nav></Nav>
-//             </div>
-//         </section>
-//     );
-// };
+function Header(){
+    return(
+        <header className="page-header">
+            <div>
+                <h1>Betsy Griffith</h1>
+            </div>
+            <div>
+                <Navigation/>
+            </div>
+        </header>
+    );
+};
 
-// export default Header;
+export default Header;

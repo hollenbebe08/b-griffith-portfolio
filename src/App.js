@@ -1,20 +1,27 @@
 import React, { useState } from 'react';
 import './App.css';
+// import Home from './components/Home';
+// import Header from './components/Header';
+import About from './components/About';
 import Navigation from './components/Navigation';
-import Category from './components/Category';
+// import Category from './components/Category';
 import ContactForm from './components/Contact';
+// import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
     {
       name: "About"
     },
+    {
+      name: "Contact"
+    },
     { 
       name: "Portfolio"
     },
     {
       name: "Resume"
-    },
+    }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -35,15 +42,20 @@ function App() {
       <main>
         <div>
           {/* if contact tab is not selected then show corresponding category*/}
-          {!contactSelected ? (
-            //  the <> and </> are React fragments—a shorthand abbreviation for <React.Fragment></React.Fragment>.
-            <>
-            <Category currentCategory={currentCategory}></Category>
-            </>
-          // the ):( is the same as an else statement
-          ) : (
-            <ContactForm></ContactForm>
-          )}
+          {(() => {
+            console.log(currentCategory)
+              switch (currentCategory.name) {
+                case "About":
+                  return <About></About>
+                case "Contact":
+                  return <ContactForm/>
+                case "Resume":
+                  return <About></About>
+                default:
+                  return <About></About>
+              }
+            }) ()
+          }
         </div>
       </main>
     </div>

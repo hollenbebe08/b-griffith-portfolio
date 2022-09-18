@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
+
 function Navigation(props){
 
   const {
@@ -19,7 +20,7 @@ function Navigation(props){
     <header className="flex-row px-1">
         <h2>
             <a href="/">
-            <span role="img" aria-label="camera"> 💻</span> Betsy Griffith
+                <span role="img" aria-label="camera"> 💻</span> Betsy Griffith
             </a>
         </h2>
         <nav>
