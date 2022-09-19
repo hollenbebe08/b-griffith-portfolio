@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
-// import Home from './components/Home';
-// import Header from './components/Header';
 import About from './components/About';
 import Navigation from './components/Navigation';
-// import Category from './components/Category';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -47,11 +45,13 @@ function App() {
             console.log(currentCategory)
               switch (currentCategory.name) {
                 case "About":
-                  return <About/>
+                  return <About />
                 case "Contact":
-                  return <ContactForm/>
+                  return <ContactForm />
                 case "Resume":
-                  return <Resume/>
+                  return <Resume />
+                case "Portfolio":
+                  return <Portfolio />
                 default:
                   return "link not found"
               }
