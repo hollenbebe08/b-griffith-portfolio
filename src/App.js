@@ -6,7 +6,8 @@ import About from './components/About';
 import Navigation from './components/Navigation';
 // import Category from './components/Category';
 import ContactForm from './components/Contact';
-// import Footer from './components/Footer';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -46,18 +47,19 @@ function App() {
             console.log(currentCategory)
               switch (currentCategory.name) {
                 case "About":
-                  return <About></About>
+                  return <About/>
                 case "Contact":
                   return <ContactForm/>
                 case "Resume":
-                  return <About></About>
+                  return <Resume/>
                 default:
-                  return <About></About>
+                  return "link not found"
               }
             }) ()
           }
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };

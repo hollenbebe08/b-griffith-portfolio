@@ -1,10 +1,18 @@
 import React from 'react'
+import photo from '../../assets/small/about/betsy.jpg'
 
 const About= () => {
   return (
-    <div>
-      <h2>Will this show up?</h2>
-    </div>
+    <section>
+      <div>
+        <img src={photo} alt="bio"/>
+      </div>
+      <div>
+        <p>
+        I am a Full Stack Developer that enjoys working with both front-end and back-end development. I most recently completed the UNCC Coding Bootcamp and would love to connect with you! Please feel free to preview my creations in the profile section. You can also view my Linkedin and GitHub profiles as well as my Resume by clicking on the links in the Footer.
+        </p>
+      </div>
+    </section>
   );
 };
 
