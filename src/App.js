@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+
 function App() {
   const [categories] = useState([
     {

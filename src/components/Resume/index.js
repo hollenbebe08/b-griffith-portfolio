@@ -2,21 +2,21 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <section>
-      <div>
-        <p>👉<a href="https://drive.google.com/file/d/1wtNQ528td9cdhsZmVNjrhzo6c1y5eh15/view?usp=sharing">Find My Resume Here</a>👈</p>
+    <section className="section is-small width-100">
+      <div className="title has-text-primary">
+        <p className="resume-link">👉<a href="https://drive.google.com/file/d/1wtNQ528td9cdhsZmVNjrhzo6c1y5eh15/view?usp=sharing">Find My Resume Here</a>👈</p>
       </div>
       <div>
-        <h1>TECHNICAL SKILLS</h1>
+        <h1 className="credentials-title">TECHNICAL SKILLS</h1>
         <ul>
           <li>
-            * Experienced in working with React and Node.JS, JavaScript, HTML, and CSS as well as MERN stack development.
+            * Experienced working with React, Node.JS, JavaScript, HTML, and CSS.
           </li>
           <li>
             * Knowledgeable in Object Oriented programming.
           </li>
           <li>
-            * Created PWAs to better the user experience.
+            * Experience with MERN stack development.
           </li>
           <li>
             * Knowledgeable in MYSQL, NoSQL, and MongoDB databases.

@@ -17,32 +17,34 @@ function Navigation(props){
   }, [currentCategory]);
 
   return(
-    <header className="flex-row px-1">
-        <h2>
-            <a href="/">
-                <span role="img" aria-label="camera"> 💻</span> Betsy Griffith
-            </a>
-        </h2>
-        <nav>
-            <ul className="flex-row">
-                {categories.map((category) => (
-                    <li className={`mx-1 ${
-                            currentCategory.name === category.name && !contactSelected && 'navActive'
-                        }`} 
-                        key={category.name}
-                    >
-                        <span
-                            onClick={() => {
-                                setCurrentCategory(category)
-                                setContactSelected(false);
-                            }}
-                            >
-                            {capitalizeFirstLetter(category.name)}
-                        </span>
-                    </li>
-                ))}
-            </ul>
-        </nav>
+    <header className="hero is-small">
+        <div className="hero-body">
+            <h2 className="title">
+                <a href="/">
+                    <span role="img" aria-label="camera"> 👩‍💻</span> Betsy Griffith
+                </a>
+            </h2>
+            <nav className="navbar" role="navigation" aria-label="main navigation">
+                <ul className="navbar-item">
+                    {categories.map((category) => (
+                        <li className={`mx-1 ${
+                                currentCategory.name === category.name && !contactSelected && 'navActive'
+                            }`} 
+                            key={category.name}
+                        >
+                            <span
+                                onClick={() => {
+                                    setCurrentCategory(category)
+                                    setContactSelected(false);
+                                }}
+                                >
+                                {capitalizeFirstLetter(category.name)}
+                            </span>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+        </div>
     </header>
   )
 };
