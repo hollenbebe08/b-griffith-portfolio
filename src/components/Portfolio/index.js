@@ -10,7 +10,7 @@ import weatherDashboard from '../../assets/projects/5.jpg'
 const Portfolio= () => {
   return (
     <section className="section flex-wrap">
-      <h1 className="title project-title ">Click on images to view the projects</h1>
+      <h1 className="title has-text-white is-centered project-title">View projects by clicking on links under images</h1>
       <div className="container">
         <div className="columns">
           <div className="column">
@@ -18,7 +18,7 @@ const Portfolio= () => {
               <div className="card-image">
                 <a href="https://github.com/hollenbebe08/project-catastrophic/"><img src={catastrophic} alt="bio"/></a>
               </div>
-              <h1 className="card-header-title is-centered">Catastrophic</h1>
+              <h1 className="card-header-title is-centered"><a href="https://hollenbebe08.github.io/project-catastrophic/">Catastrophic</a></h1>
             </div>
           </div>
           <div className="column">
@@ -26,7 +26,7 @@ const Portfolio= () => {
               <div className="card-image">
                 <a href="https://github.com/hollenbebe08/professional-readme-generator/"><img src={readMeGenerator} alt="bio"/></a>
               </div>
-              <h1 className="card-header-title is-centered">ReadMe Generator</h1>
+              <h1 className="card-header-title is-centered"><a href="https://drive.google.com/file/d/1UGBjCzJ9XW9oKxhIG094NQ1dstBMSdAF/view">ReadMe Generator</a></h1>
             </div>
           </div>
           <div className="column">
@@ -34,7 +34,7 @@ const Portfolio= () => {
               <div className="card-image">
                 <a href="https://github.com/hollenbebe08/social-network"><img src={socialNetwork} alt="bio"/></a>
               </div>
-              <h1 className="card-header-title is-centered">Social Network</h1>
+              <h1 className="card-header-title is-centered"><a href="https://drive.google.com/file/d/1OLd9s9hgNB6lp5CALm2kkO6pY01htTNp/view">Social Network</a></h1>
             </div>
           </div>
         </div>
@@ -46,14 +46,14 @@ const Portfolio= () => {
               <div className="card-image">
                 <a href="https://github.com/hollenbebe08/b-griffith-quizinator/"><img src={quizinator} alt="bio"/></a>
               </div>
-              <h1 className="card-header-title is-centered">Quizinator</h1>
+              <h1 className="card-header-title is-centered"><a href="https://hollenbebe08.github.io/b-griffith-quizinator/">Quizinator</a></h1>
             </div>
           </div>
           <div className="column">
             <div className="card is-child box">
               <div className="card-image">
                 <a href="https://github.com/PGCranford/Rent-A-Ride-/"><img src={rentARide} alt="bio"/></a>
-                <h1 className="card-header-title is-centered">Rent-A-Ride</h1>
+                <h1 className="card-header-title is-centered"><a href="https://sleepy-cove-56868.herokuapp.com/">Rent-A-Ride</a></h1>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Portfolio= () => {
             <div className="card is-child box">
               <div className="card-image">
                 <a href="https://github.com/hollenbebe08/b-griffith-weather-dashboard/"><img src={weatherDashboard} alt="bio"/></a>
-                <h1 className="card-header-title is-centered">Weather Dashboard</h1>
+                <h1 className="card-header-title is-centered"><a href="https://hollenbebe08.github.io/b-griffith-weather-dashboard/">Weather Dashboard</a></h1>
               </div>
             </div>
           </div>
