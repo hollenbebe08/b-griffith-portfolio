@@ -26,7 +26,7 @@ const Portfolio= () => {
               <div className="card-image">
                 <a href="https://github.com/hollenbebe08/professional-readme-generator/"><img src={readMeGenerator} alt="bio"/></a>
               </div>
-              <h1 className="card-header-title is-centered"><a href="https://drive.google.com/file/d/1UGBjCzJ9XW9oKxhIG094NQ1dstBMSdAF/view">ReadMe Generator</a></h1>
+              <h1 className="card-header-title is-centered"><a href="https://drive.google.com/file/d/1UGBjCzJ9XW9oKxhIG094NQ1dstBMSdAF/view">ReadME Generator</a></h1>
             </div>
           </div>
           <div className="column">
