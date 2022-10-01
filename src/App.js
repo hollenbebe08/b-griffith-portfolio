@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import Navigation from './components/Navigation';
-import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
@@ -12,9 +11,6 @@ function App() {
   const [categories] = useState([
     {
       name: "About"
-    },
-    {
-      name: "Contact"
     },
     { 
       name: "Portfolio"
@@ -26,8 +22,6 @@ function App() {
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
-
   return (
     <div>
       <section>
@@ -35,8 +29,6 @@ function App() {
           categories={categories}
           setCurrentCategory={setCurrentCategory}
           currentCategory={currentCategory}
-          contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
         ></Navigation>
       </section>
       <main>
@@ -47,8 +39,6 @@ function App() {
               switch (currentCategory.name) {
                 case "About":
                   return <About />
-                case "Contact":
-                  return <ContactForm />
                 case "Resume":
                   return <Resume />
                 case "Portfolio":

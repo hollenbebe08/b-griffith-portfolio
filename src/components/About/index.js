@@ -1,18 +1,33 @@
 import React from 'react'
 import photo from '../../assets/small/about/betsy.jpg'
+import { SocialIcon } from 'react-social-icons';
 
 const About= () => {
   return (
-    <section className="columns section is-three-quarters-mobile">
-      <div className="column">
-        <img src={photo} alt="bio"/>
-      </div>
-      <div className="column">
-        <p className="bio">
-        I am a Full Stack Developer that enjoys working with both front-end and back-end development. I most recently completed the UNCC Coding Bootcamp and would love to connect with you! Please feel free to preview my creations in the profile section. You can also view my Linkedin and GitHub profiles as well by clicking on the links in the footer.
-        </p>
-      </div>
-    </section>
+    <article>
+      <section className="columns section is-three-quarters-mobile">
+        <div className="column">
+          <img src={photo} alt="bio"/>
+        </div>
+        <div className="column">
+          <p className="bio">
+          I am a Full Stack Developer that enjoys working with both front-end and back-end development. I most recently completed the UNCC Coding Bootcamp and would love to connect with you! Please feel free to preview my creations in the profile section. You can also view my Linkedin and GitHub profiles as well by clicking on the links below.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <div id="div_top_hypers">
+              <ul id="ul_top_hypers">
+                  <li>Let's Connect!</li>
+                  <li><SocialIcon url="https://github.com/hollenbebe08"/> GitHub Profile</li>
+                  <li><SocialIcon url="https://www.linkedin.com/in/betsy-griffith-aab52546/" /> LinkedIn Profile</li>
+                  <li><SocialIcon url="https://stackoverflow.com/users/18714378/betsy-griffith" /> Stack Overflow</li>
+              </ul>
+          </div>
+        </div>
+      </section>
+    </article>
   );
 };
 

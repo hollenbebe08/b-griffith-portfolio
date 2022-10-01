@@ -8,10 +8,7 @@ const Footer = () => {
         <div className="content">
             <div id="div_top_hypers">
               <ul id="ul_top_hypers">
-                <li>Let's Connect!</li>
-                <li><SocialIcon url="https://github.com/hollenbebe08"/> GitHub Profile</li>
-                <li><SocialIcon url="https://www.linkedin.com/in/betsy-griffith-aab52546/" /> LinkedIn Profile</li>
-                <li><SocialIcon url="https://stackoverflow.com/users/18714378/betsy-griffith" /> Stack Overflow</li>
+                <li>Created by Betsy Griffith, 2022</li>
               </ul>
             </div>
         </div>
