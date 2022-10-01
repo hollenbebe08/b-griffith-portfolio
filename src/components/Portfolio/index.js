@@ -9,7 +9,7 @@ import weatherDashboard from '../../assets/projects/5.jpg'
 
 const Portfolio= () => {
   return (
-    <section className="section flex-wrap">
+    <section className="section flex-wrap is-three-quarters-mobile">
       <h1 className="title has-text-white is-centered project-title">View projects by clicking on links under images</h1>
       <div className="container">
         <div className="columns">

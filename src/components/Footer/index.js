@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
   return (
-    <footer className="footer has-background-black">
+    <footer className="footer has-background-black is-three-quarters-mobile">
         <div className="content">
             <div id="div_top_hypers">
               <ul id="ul_top_hypers">

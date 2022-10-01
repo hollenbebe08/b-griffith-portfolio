@@ -3,7 +3,7 @@ import photo from '../../assets/small/about/betsy.jpg'
 
 const About= () => {
   return (
-    <section className="columns section">
+    <section className="columns section is-three-quarters-mobile">
       <div className="column">
         <img src={photo} alt="bio"/>
       </div>

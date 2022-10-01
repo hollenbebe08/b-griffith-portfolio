@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <section className="section is-small width-100">
+    <section className="section is-small width-100 is-three-quarters-mobile">
       <div className="title has-text-primary">
         <p className="resume-link">👉<a href="https://drive.google.com/file/d/1wtNQ528td9cdhsZmVNjrhzo6c1y5eh15/view?usp=sharing">Find My Resume Here</a>👈</p>
       </div>
