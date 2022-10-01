@@ -17,7 +17,7 @@ function Navigation(props){
   }, [currentCategory]);
 
   return(
-    <header className="hero is-small is-three-quarters-mobile">
+    <header className="hero is-small">
         <div className="hero-body">
             <h2 className="title">
                 <a href="/">

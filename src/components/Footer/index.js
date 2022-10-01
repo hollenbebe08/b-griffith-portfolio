@@ -1,14 +1,13 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
 
 
 const Footer = () => {
   return (
-    <footer className="footer has-background-black is-three-quarters-mobile">
+    <footer className="footer has-background-black">
         <div className="content">
             <div id="div_top_hypers">
               <ul id="ul_top_hypers">
-                <li>Created by Betsy Griffith, 2022</li>
+                <li className="has-text-light is-size-6">Created by Betsy Griffith, 2022</li>
               </ul>
             </div>
         </div>

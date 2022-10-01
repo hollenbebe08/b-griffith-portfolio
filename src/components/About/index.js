@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 const About= () => {
   return (
     <article>
-      <section className="columns section is-three-quarters-mobile">
+      <section className="columns">
         <div className="column">
           <img src={photo} alt="bio"/>
         </div>
@@ -15,14 +15,14 @@ const About= () => {
           </p>
         </div>
       </section>
-      <section>
-        <div>
+      <section className='columns'>
+        <div className="column">
           <div id="div_top_hypers">
-              <ul id="ul_top_hypers">
-                  <li>Let's Connect!</li>
-                  <li><SocialIcon url="https://github.com/hollenbebe08"/> GitHub Profile</li>
-                  <li><SocialIcon url="https://www.linkedin.com/in/betsy-griffith-aab52546/" /> LinkedIn Profile</li>
-                  <li><SocialIcon url="https://stackoverflow.com/users/18714378/betsy-griffith" /> Stack Overflow</li>
+            <h2 className='lets-connect has-text-centered is-size-2-desktop is-size-5-mobile'>Let's Connect!</h2>
+              <ul className="has-text-centered is-size-6-mobile" id="ul_top_hypers">
+                <li><SocialIcon url="https://github.com/hollenbebe08"/> GitHub Profile</li>
+                <li><SocialIcon url="https://www.linkedin.com/in/betsy-griffith-aab52546/" /> LinkedIn Profile</li>
+                <li><SocialIcon url="https://stackoverflow.com/users/18714378/betsy-griffith" /> Stack Overflow</li>
               </ul>
           </div>
         </div>

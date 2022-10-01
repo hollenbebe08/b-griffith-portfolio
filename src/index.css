@@ -89,25 +89,6 @@ header a {
   color: var(--light);
 }
 
-/* contact form styling */
-form {
-  width: 40%;
-  color: white;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
-}
 
 li {
   list-style: none;
@@ -122,13 +103,9 @@ nav  li {
   cursor: pointer;
 }
 
-textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+.navbar-item {
+  font-size: 25px; 
 }
-
 
 a {
 	border-radius: 5px;
@@ -144,9 +121,6 @@ a {
   color: var(--secondary);
 }
 
-.project-title {
-  padding-left: 35px;
-}
 
  /*Begin footer styling*/
  footer {
@@ -159,10 +133,14 @@ a {
   bottom:0px;
 }
 
-
-#div_top_hypers {
-  display: inline;
+.lets-connect {
+  padding-top: 30px;
+  padding-bottom: 20px; 
 }
+
+/* #div_top_hypers {
+  display: inline;
+} */
 
 #ul_top_hypers li {
   display: inline;
