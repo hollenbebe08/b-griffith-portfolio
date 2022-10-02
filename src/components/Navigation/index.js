@@ -25,7 +25,7 @@ function Navigation(props){
                 </a>
             </h2>
             <nav className="navbar" role="navigation" aria-label="main navigation">
-                <ul className="navbar-item">
+                <ul className="navbar-item is-size-6-mobile">
                     {categories.map((category) => (
                         <li className={`mx-1 ${
                                 currentCategory.name === category.name && !contactSelected && 'navActive'

@@ -7,8 +7,8 @@ const Resume = () => {
         <p className="resume-link">👉<a href="https://drive.google.com/file/d/1wtNQ528td9cdhsZmVNjrhzo6c1y5eh15/view?usp=sharing">Find My Resume Here</a>👈</p>
       </div>
       <div>
-        <h1 className="credentials-title">TECHNICAL SKILLS</h1>
-        <ul>
+        <h1 className="is-size-3-desktop is-size-5-mobile credentials-title">TECHNICAL SKILLS</h1>
+        <ul className="is-size-5-desktop is-size-6-mobile">
           <li>
             * Experienced working with React, Node.JS, JavaScript, HTML, and CSS.
           </li>

@@ -7,10 +7,15 @@ const About= () => {
     <article>
       <section className="columns">
         <div className="column">
-          <img src={photo} alt="bio"/>
+          <img style={{
+            borderBottomRightRadius: 20,
+            borderTopRightRadius: 20,
+            borderBottomLeftRadius: 20,
+            borderTopLeftRadius: 20,
+          }}src={photo} alt="bio"/>
         </div>
         <div className="column">
-          <p className="bio">
+          <p className="is-size-4-desktop is-size-6-mobile bio">
           I am a Full Stack Developer that enjoys working with both front-end and back-end development. I most recently completed the UNCC Coding Bootcamp and would love to connect with you! Please feel free to preview my creations in the profile section. You can also view my Linkedin and GitHub profiles as well by clicking on the links below.
           </p>
         </div>
