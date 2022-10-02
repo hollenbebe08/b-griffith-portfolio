@@ -45,6 +45,9 @@ const Resume = () => {
           <li>
             * Interact with the DOM using built-in web developer tools. 
           </li>
+          <li>
+            * Created Progressive Web Applications to better the user experience.
+          </li>
         </ul>
     </div>
     </section>
