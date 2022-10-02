@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/b-griffith-portfolio/static/css/main.9e8232a5.css",
-    "main.js": "/b-griffith-portfolio/static/js/main.6e2c2add.js",
+    "main.css": "/b-griffith-portfolio/static/css/main.1566e6d0.css",
+    "main.js": "/b-griffith-portfolio/static/js/main.299573b5.js",
     "static/js/787.298e3fe3.chunk.js": "/b-griffith-portfolio/static/js/787.298e3fe3.chunk.js",
     "static/media/4.jpg": "/b-griffith-portfolio/static/media/4.5a15222dfa120c9d9d2f.jpg",
     "static/media/betsy.jpg": "/b-griffith-portfolio/static/media/betsy.2c64eb5ca3d45246eb61.jpg",
@@ -10,12 +10,12 @@
     "static/media/1.jpg": "/b-griffith-portfolio/static/media/1.ff0b43e185bd1a67ec4a.jpg",
     "static/media/5.jpg": "/b-griffith-portfolio/static/media/5.e6a85ba04fd5c9eaa35f.jpg",
     "index.html": "/b-griffith-portfolio/index.html",
-    "main.9e8232a5.css.map": "/b-griffith-portfolio/static/css/main.9e8232a5.css.map",
-    "main.6e2c2add.js.map": "/b-griffith-portfolio/static/js/main.6e2c2add.js.map",
+    "main.1566e6d0.css.map": "/b-griffith-portfolio/static/css/main.1566e6d0.css.map",
+    "main.299573b5.js.map": "/b-griffith-portfolio/static/js/main.299573b5.js.map",
     "787.298e3fe3.chunk.js.map": "/b-griffith-portfolio/static/js/787.298e3fe3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8232a5.css",
-    "static/js/main.6e2c2add.js"
+    "static/css/main.1566e6d0.css",
+    "static/js/main.299573b5.js"
   ]
 }
