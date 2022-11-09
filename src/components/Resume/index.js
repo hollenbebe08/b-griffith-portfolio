@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <section className="section is-small width-100 is-size-3-mobile">
       <div className="title has-text-primary">
-        {/* <p className="resume-link">👉<a href="https://docs.google.com/document/d/1letbshg__-mopa0jermU-Q7OprpioDLb/edit?usp=sharing&ouid=107151785371709296234&rtpof=true&sd=true">Find My Resume Here</a>👈</p> */}
+        <p className="resume-link">👉<a href="https://docs.google.com/document/d/1letbshg__-mopa0jermU-Q7OprpioDLb/edit?usp=sharing&ouid=107151785371709296234&rtpof=true&sd=true">Find My Resume Here</a>👈</p>
       </div>
       <div>
         <h1 className="is-size-3-desktop is-size-5-mobile credentials-title">TECHNICAL SKILLS</h1>
